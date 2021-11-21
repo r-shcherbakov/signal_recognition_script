@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "Signal recognition script"
+version = "0.1.0"
+description = "The script to measure the relationship between measured signal and reference"
+authors = ["Roman Shcherbakov"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+jupyter = "^1.0.0"
+pandas = "1.2.5"
+matplotlib = "^3.4.3"
+seaborn = "^0.11.2"
+PyWavelets = "^1.1.1"
+scipy = "^1.7.1"
+tqdm = "^4.62.3"
+termcolor = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
